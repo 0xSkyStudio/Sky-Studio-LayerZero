@@ -1,0 +1,21 @@
+{
+  "name": "Sky-LayerZero",
+  "version": "1.0.0",
+  "description": "Sky Studio LayerZero Airdrop Script",
+  "type": "module",
+  "scripts": {
+    "add-liquidity": "node --no-warnings scripts/addLiquidity.js",
+    "add-stake-lp": "node --no-warnings scripts/stakeLP.js",
+    "cross-chain": "node --no-warnings scripts/crossChain.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@binance/connector": "^2.0.1",
+    "crypto-js": "^4.1.1",
+    "ethers": "5",
+    "node-fetch": "2",
+    "node-stargate": "1.1.1"
+  }
+}
